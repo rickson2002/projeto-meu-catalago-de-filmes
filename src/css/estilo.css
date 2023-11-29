@@ -6,8 +6,31 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+
+
   }
-  
+  .imagem-botao {
+    position: fixed; /* Define o posicionamento fixo para que ele permaneça na tela ao rolar */
+    top: 10px; /* Distância do topo da página */
+    left: 10px; /* Distância da borda esquerda da página */
+    display: inline-block;
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #6d3a3a;
+    border-radius: 5px;
+    background-color: #3d2626;
+  }
+
+  /* Estilo da imagem dentro do botão */
+  .imagem-botao img {
+    width: 20px; /* Defina a largura desejada da imagem */
+    height: 20px; /* Defina a altura desejada da imagem */
+    vertical-align: middle;
+    margin-right: 5px; /* Adiciona um espaçamento à direita da imagem (opcional) */
+  }
+
   .container {
     text-align: center;
     padding: 20px;
